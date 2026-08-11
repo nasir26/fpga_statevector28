@@ -1,0 +1,11 @@
+# Installed into the sibling repo's existing venv
+# (/home/cdac/Documents/fpga_mps_simulator/.venv) — this project intentionally
+# does not create its own, to reuse the qiskit/qiskit-aer/qiskit-aer-gpu
+# stack already validated there. pyxrt is NOT pip-installable; it comes
+# from the system XRT install (see env.py).
+numpy
+matplotlib
+qiskit==1.2.4
+qiskit-aer==0.17.2
+qiskit-aer-gpu==0.15.1
+pyzx==0.8.0

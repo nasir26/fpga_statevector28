@@ -1,0 +1,13 @@
+circuit,gate_reduction_pct,hardware,kernel_time_us,n_qubits,num_gates,stage,variant,wall_time_us
+QFT,-450.0,FPGA,697.86,6,90,zx_comparison,raw,1987.811
+QFT,-450.0,CPU,201.7,6,90,zx_comparison,raw,65655.221
+QFT,-450.0,GPU,834.14,6,90,zx_comparison,raw,65812.641
+QFT,-450.0,FPGA,816.77,6,132,zx_comparison,zx_optimized,2265.641
+QFT,-450.0,CPU,374.45099999999996,6,132,zx_comparison,zx_optimized,69523.543
+QFT,-450.0,GPU,1609.451,6,132,zx_comparison,zx_optimized,73278.045
+Clifford+T,5.714285714285714,FPGA,584.09,6,70,zx_comparison,raw,1468.02
+Clifford+T,5.714285714285714,CPU,260.95099999999996,6,70,zx_comparison,raw,63649.381
+Clifford+T,5.714285714285714,GPU,1144.47,6,70,zx_comparison,raw,65036.372
+Clifford+T,5.714285714285714,FPGA,482.66,6,66,zx_comparison,zx_optimized,1472.581
+Clifford+T,5.714285714285714,CPU,258.091,6,66,zx_comparison,zx_optimized,65492.672
+Clifford+T,5.714285714285714,GPU,1121.06,6,66,zx_comparison,zx_optimized,66655.551
